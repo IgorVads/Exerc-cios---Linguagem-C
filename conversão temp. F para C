@@ -2,13 +2,16 @@
 #include <stdlib.h>
 #include <locale.h>
 
+/* Converter de Fahrenheit para Celsius.*/
+
 int main()
 {
-	setlocale(LC_ALL, "Portuguese");
+    setlocale(LC_ALL, "Portuguese");
+
     float celsius, fah;
 
     printf("Digite uma temperatura em Fahrenheit:\n");
-    scanf("%f", &fah);
+    	scanf("%f", &fah);
 
     celsius = (fah - 32) / 1.8;
 
